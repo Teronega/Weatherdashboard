@@ -1,0 +1,28 @@
+.page_header{
+  text-align: center;
+  background-color:#3d6488;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white
+}
+
+body{
+  background-color: #2ca8fa;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.column{
+  display: inline-block;
+}
+.searchContainer{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #2ca8fa;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.currentWeather{
+  text-align: right;
+  background-color: #3d6488;
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans Condensed', sans-serif;
+}

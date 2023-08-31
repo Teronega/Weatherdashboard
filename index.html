@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weekly Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<header id="page_header">
+    <h1>Weather Dashboard</h1>
+</header>
+
+<body>
+
+    <div class="searchContainer">
+        <h5>Search by city: </h5>
+        <input class="form" type="search" placeholder="Which city?" id="searchBar" aria-label="Search">
+        <button id="searchBtn" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <h5>Your previously searched cities: </h5>
+    <div class="container" id="searchedCities">
+
+    <div class="container">
+        <div class="column">
+            <h5>Current Weather: </h5>
+            <div class="container" id="currentWeather">
+                <div>Day 1</div>
+                <div>Day 2</div>
+                <div>Day 3</div>
+                <div>Day 4</div>
+                <div>Day 5</div>
+            </div>
+
+            <div class="column2">
+                <h5>5-Day Forecast: </h5>
+                <div class="container" id="fiveDayForecast">
+                    <div>Day 1</div>
+                    <div>Day 2</div>
+                    <div>Day 3</div>
+                    <div>Day 4</div>
+                    <div>Day 5</div>
+                </div>
+
+
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                    <script src="script.js"></script>
+</body>
+
+</html>
