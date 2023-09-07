@@ -5,6 +5,7 @@
 // 4. Create a function to display the 5 day forecast
 
 
+localStorage.setItem("cities", JSON.stringify([]));
 
 function addEventListeners() {
     $("#search-button").on("click", function() {
@@ -41,4 +42,3 @@ queryurl = url + city + APIkey;
 current_weather_url = currenturl + city + APIkey; 
 
 ///////////////////////////////////////////////////////
-
