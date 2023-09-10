@@ -8,5 +8,8 @@ Objective is to create a Weather Dashboard reflecting a 5-day forecast. This das
 ## Credits
 Tutoring
 
+## Example
+![weather](https://github.com/Teronega/Weatherdashboard/assets/128359388/6ae28580-5b4f-4b9c-969c-e3ed91515c0f)
+
 ## License
 MIT License
